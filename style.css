@@ -1,3 +1,4 @@
+/*
 *{
     margin: 0%;
     color: cornsilk;
@@ -15,7 +16,7 @@ p{
 
 }
 
-/* Same text */
+/* Same text 
 
 div{
     width: 200px;
@@ -53,7 +54,7 @@ div p{
 }
 
 
-/* Color Work */
+/* Color Work 
 body{
     background: url(bg2.jpg);
 }
@@ -72,7 +73,7 @@ h1{
 
 }
 
-/* Bordar Work */
+/* Bordar Work 
 
 h1{
    /*  border-style: groove;
@@ -81,7 +82,7 @@ h1{
 
     border: 10px;
     border-radius: 60px;
-    border-color: #2ecc71; */
+    border-color: #2ecc71; 
 
     border-left: 20px solid green;
     border-top: 20px solid red;
@@ -94,7 +95,7 @@ h1{
     border-bottom-style: groove;
 }
 
-/* Marjin & Padding Work */
+/* Marjin & Padding Work 
 
 *{
     margin: 0;
@@ -126,7 +127,7 @@ div{
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
-} */
+} 
 
 .child-div{
     background-color: #C4E538;
@@ -135,5 +136,37 @@ div{
 
     margin: 10px auto;
     padding: 25px auto;
+
+}
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+html{
+    height: 50%;
+} 
+
+body{
+    height:inherit;
+}
+.parents{
+    background: black;
+    color: chartreuse;
+    width: 96%;
+    margin: 20px auto;
+    padding: 2%;
+    /*max-width: 1140px;
+    min-width: 500px; */
+
+    height: 90%;
+    color: chocolate;
+    /*max-height: 300px;*/
+
+
+
 
 }
