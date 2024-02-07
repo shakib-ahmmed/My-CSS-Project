@@ -18,3 +18,41 @@ i{
     padding: 15px;
     font-size: 15px;
 }
+a{
+    color: black;
+    text-decoration:none;
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: line-through;
+}
+a:visited{
+    color: chocolate;
+}
+a:hover{
+    color: aquamarine;
+}
+a:active{
+    color: red;
+    font-weight: bold;
+    font-size: 25px;
+}
+a:focus{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    background:black;
+    padding: 10px;
+}
+a.btn{
+    text-decoration: none;
+    background: red;
+    border: 2px solid red;
+    color: rgb(12, 12, 12);
+    padding: 10px 25px;
+    display: inline-block;
+    font-family: sans-serif;
+    border-radius: 35px;
+}
+a.btn:hover{
+    background: olivedrab;
+    color: black;
+}
