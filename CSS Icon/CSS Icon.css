@@ -76,7 +76,7 @@ a.btn:hover{
     margin-left: 25px;
     margin-right: 25px;
 
-} */
+} 
 
 ul{
     background: tomato;
@@ -115,4 +115,24 @@ td{
 tr:hover th,
 tr:hover td{
     background: aquamarine;
+}*/
+h1,
+p,
+span{
+    background: teal;
+}
+h1{
+    display: inline-block;
+}
+span{
+    display: block;
+}
+h3{
+    display: none;
+}
+a.btn{
+    background: violet;
+    color: aliceblue;
+    padding: 10px 25px;
+    display: inline-table;
 }
