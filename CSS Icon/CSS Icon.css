@@ -88,3 +88,31 @@ li{
     padding: 5px;
     border-bottom: 1px solid tomato;
 }
+table,
+th,
+td{
+    border: 1px solid black;
+    border-collapse: 5px 10px;
+    padding: 5px 10px;
+}
+table{
+    width: 100%;
+}
+th{
+    background: red;
+    border: 1px solid red;
+    color: black;
+    height: 50px;
+    text-align: left;
+}
+td{
+    background: rgb(240, 185, 84);
+    border: 1px solid gray;
+    color: white;
+    height: 35px;
+    vertical-align: center;
+}
+tr:hover th,
+tr:hover td{
+    background: aquamarine;
+}
