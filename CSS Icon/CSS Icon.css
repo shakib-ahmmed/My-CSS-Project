@@ -131,19 +131,19 @@ h3{
     display: none;
 }
 a.btn{
-    background: violet;
+    /* background: violet;
     color: aliceblue;
     padding: 10px 25px;
-    display: inline-table;
-}  */
+    display: inline-table; 
+}  
 div{
     background: aqua;
     width: 400px;
     height: 400px;
     position: relative;
     margin: 0;
-    /* margin-left: 20px;
-    margin-top: 20px; */
+     margin-left: 20px;
+    margin-top: 20px; 
     top: 50px;
 }
 .main{
@@ -158,15 +158,37 @@ div{
     background: blueviolet;
 }
 .cld{
-    background: plum;
+    background: rgb(104, 6, 104);
     width: 50px;
     height: 50px;
     left: 50px;
-    margin: -25px;
-    right: 0;
+    margin-left: -25px;
     position: absolute;
     top: 50px;
     margin-top: -25px;
+    z-index: 4;
+}
+.cld2{
+    background:peru;
+    width: 100px;
+    height: 100px;
+    left: 50px;
+    margin-left: -50px;
+    position: absolute;
+    top: 50px;
+    margin-top: -50px;
+    z-index: 3;
+}
+.cld3{
+    background:blue;
+    width: 200px;
+    height: 200px;
+    left: 50px;
+    margin-left: -25px;
+    position: absolute;
+    top: 50px;
+    margin-top: -50px;
+    z-index: 2;
 }
 .stk{
     background: gold;
@@ -176,4 +198,21 @@ div{
     bottom 0;
     left: 0;
 
+}  */
+
+div{
+    background: rgb(13, 36, 36);
+    color: cadetblue;
+    padding: 20px;
+    overflow:hidden;
+    overflow: scroll;
+    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 300px;
+    height:200px;
 }
+/* p{
+    width: 600px;
+
+} */
