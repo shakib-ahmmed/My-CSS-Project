@@ -2,53 +2,37 @@ body{
         font-family: "Poppins", sans-serif;
         margin: 0;
       }
-      
-#main-menu{
-    background: #0f0a49;
-}
-#main-menu ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-align: center;
-}
-#main-menu li{
-    display: inline-block;
-    position: relative;
-}
-#main-menu li a {
-    display:block;
-    padding: 12px 15px;
-    color: rgb(238, 231, 231);
+a[target]{
     text-decoration: none;
+    color: red;
 }
-#main-menu li a:hover{
-    background: #100b47;
+a[target="_self"]{
+    color: palegreen;
 }
-
-/* Dropdown Menu Style */
-
-#main-menu ul ul{
-    position: absolute;
-    left: 0;
-    top:48px;
-    background:#1289A7;
-    width: 200px;
-    display: none;
-    z-index: 999;
+a[title~="shakibahmmed"]{
+    color: aqua;
+    font: bold;
+    font-size: 35px;
 }
-#main-menu ul ul li{
-    display: block;
+a[title~="uav"]{
+    color: rgb(37, 209, 60);
+    font: bold;
+    font-size: 40px;
 }
-#main-menu ul li:hover ul{
-    display: block;
+div[class|="child"]{
+    width: 300px;
+    height: 200px;
+    background: rgb(134, 114, 221);
 }
-#main-menu ul li:hover a{
-    background:#0a3d62 ;
+div[class^="child"]{
+    width: 300px;
+    height: 200px;
+    background: rgb(229, 245, 13);
+    margin-bottom: 5px;
 }
-#main-menu ul li:hover li a{
-    background: #1B1464;
+div[class$="ial"]{
+    background: red;
 }
-#main-menu ul ul li a:hover {
-    background: #1B1464;
+div[class*="erv"]{
+    background: rgb(9, 255, 21);
 }
