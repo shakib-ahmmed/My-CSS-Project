@@ -2,47 +2,80 @@ body{
         font-family: "Poppins", sans-serif;
         margin: 0;
       }
-.contact{
-    width: 90%;
-    border: 1px solid #ddd;
-    margin: 20px auto;
-    text-align: center;
+.parant{
+    margin: 10px;
+    margin left: 50px;
 }
-.contac h2{
-    font-weight: bold;
-    font-size: 35px;
-    margin-bottom: 0;
-}
-.child_form{
-    width: 100%;
-    margin-bottom: 15px;
-}
-.child_form lebel{
-    display:block;
-    margin-bottom: 5px;
-}
-.child_form input,
-.child_form textarea{
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 10px 3%;
-    width: 94%;
-    font-family: "Poppins", sans-serif;
-}
-.child_form input[type="button"]{
-    width: 200px;
-    background: blueviolet;
-    border:1px solid blueviolet;
-    color: #fff;
-    cursor: pointer;
-}
-.child_form input[type="button"]:hover {
-    width: 200px;
-    background: black;
-    border: 1px solid black;
-    color: #fff;
 
+.child{
+    background: #ff7f50;
+    width: 50px;
+    padding-top:05px;
+    height: 38px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 5px;
+    float: left;
+    margin-right: 10px;
 }
-.child_form:last-child{
+p{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+/* nth Child */
+/* .child:first-child{
+    background: #ff4757;
+}
+.child:last-child{
+    background: #ffa502;
+}
+.child:nth-child(3){
+    background:blue;
+}
+.child:nth-last-child(3){
+    background: green;
+} */
+
+.child:nth-child(odd){
+    background: #ff4757;
+}
+.child:nth-child(even){
+    background: #09792a;
+}
+.child:nth-child(n+3){
+    background: #3289da;
+}
+.child:nth-child(3n+2){
+    background: #25af6f;
+}
+
+
+/* Form Styling */
+form{
+    margin-top: 25px;
+    margin-left: 10px;
+}
+input[type="text"]{
+    border: 1px solid #ddd;
+    padding: 15px 25px;
+    color: black;
+    font-size: 14px;
+    border-radius: 5px;
+    float: left;
+}
+input[type="button"]{
+    background: #3289da;
+    border: 1px solid #ddd;
+    padding: 15px 25px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+    transition: 0.5s;
+}
+input:not(:placeholder-shown) + input[type="button"]{
     display: block;
 }
