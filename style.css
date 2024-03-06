@@ -2,44 +2,17 @@ body{
         font-family: "Poppins", sans-serif;
         margin: 0;
       }
-      #header_area{
-        padding: 15px 0;
-        text-align: center;
-        border-bottom: 1px solid #ddd;
-      }
 
-      /* Main Menu Style */
-
-      #main_menu{
-        padding: 10px 0;
-        border-bottom: 2px solid greenyellow;
-      }
-      #main_menu ul{
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        text-align: center;
-      }
-      #main_menu ul li{
-        display: inline-block;
-        margin: 0 8px;
-      }
-      #main_menu ul li a{
-        color:black;
-        font-size: 15px;
-        font-weight: bold;
-        text-decoration: underline;
-      }
-      #main_menu ul li a:hover{
-        color: blueviolet;
-      }
-      #contet{
-        width: 1140px;
-        margin: 10px auto;
-        border-bottom: 1px solid #ddd;
-      }
-      #main_content{
-        width: 70%;
-        padding: 10px;
-        border-right: 1px solid #ddd;
-      }
+#test p.para{
+  color: blanchedalmond;
+}
+.child p.para{
+  color: yellow;
+}
+p.para{
+  color: red;
+  color:blue; 
+}
+p{
+  color: green;
+}
